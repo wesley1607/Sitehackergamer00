@@ -1,0 +1,506 @@
+/*------------------------------------------------------------------------------------------------------------------
+    EDIÇÃO DO HEADER
+  ----------------------------------------------------------------------------------------------------------------*/
+header {
+   width: auto;
+   background-image: url(Imagem.png/header.jpg);
+}
+/*------------------------------------------------------------------------------------------------------------------
+    EDIÇÃO DAS SECTION
+  ----------------------------------------------------------------------------------------------------------------*/
+  section {
+
+    max-width: 800px;
+    min-width: 320px;
+  }
+/*------------------------------------------------------------------------------------------------------------------
+    EDIÇÃO DAS DIVS
+  ----------------------------------------------------------------------------------------------------------------*/
+
+  div#span {
+    background-color: #ed0000e2;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+div.primeira {
+    background-color: #ed0000e2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 80px;
+    height: 80px;
+    
+    border-radius: 5%;
+    
+    padding: 50px;
+    color: white;
+}
+div.segunda {
+    background-image: url(./Imagem.png/bet7k.jpg);
+    background-color: #2F4F4F;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 80px;
+    height: 80px;
+    
+    border-radius: 5%;
+    
+    padding: 50px;
+    color: white;
+}
+div.terceira {
+    background-image: url(./Imagem.png/999kkae.jpg);
+    background-color: #2F4F4F;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 80px;
+    height: 80px;
+    
+    border-radius: 5%;
+    
+    padding: 50px;
+    color: white;
+}
+div.quarta {
+    background-image: url(./Imagem.png/114bet.jpg);
+    background-color: #2F4F4F;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 80px;
+    height: 80px;
+    
+    border-radius: 5%;
+   
+    padding: 50px;
+    color: white;
+}
+div.quinta {
+    background-image: url(./Imagem.png/strike777.jpg);
+    background-color: #2F4F4F;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 80px;
+    height: 80px;
+   
+    border-radius: 5%;
+
+    padding: 50px;
+    color: white;
+}
+div.sexta {
+    background-image: url(./Imagem.png/99brl.jpg);
+    background-color: #2F4F4F;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 80px;
+    height: 80px;
+    
+    border-radius: 5%;
+    
+    padding: 50px;
+    color: white;
+}
+div.setima {
+    background-image:url(./Imagem.png/ttkbet.jpg) ;
+    background-color: #2F4F4F;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 80px;
+    height: 80px;
+    
+    border-radius: 5%;
+    
+    padding: 50px;
+    color: white;
+}
+div.oitava {
+    background-image: url(./Imagem.png/lemon.jpg);
+    background-color: #2F4F4F;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 80px;
+    height: 80px;
+    
+    border-radius: 5%;
+    
+    padding: 50px;
+    color: white;
+}
+div#img {
+    display: block;
+    text-align: center;
+ }
+ div.primeira {
+    color: white;
+}
+div.primeira:hover {
+    a#link-um {
+        visibility: visible;
+         color: white;
+    }
+}
+div.primeira{
+    background-image: url(./Imagem.png/imgown777.jpg);
+}
+div.segunda:hover {
+    a#link-dois {
+        visibility: visible;
+         color: white;
+    }
+}
+div.terceira:hover {
+    a#link-tres {
+        visibility: visible;
+         color: white;
+    }
+}
+div.quarta:hover {
+    a#link-quatro {
+        visibility: visible;
+         color: white;
+    }
+}
+div.quinta:hover {
+    a#link-cinco {
+        visibility: visible;
+         color: white;
+    }
+}
+div.sexta:hover {
+    a#link-seis {
+        visibility: visible;
+         color: white;
+    }
+}
+div.setima:hover {
+    a#link-sete {
+        visibility: visible;
+         color: white;
+    }
+}
+div.oitava:hover {
+    a#link-oito {
+        visibility: visible;
+         color: white;
+    }
+}
+/*------------------------------------------------------------------------------------------------------------------
+    EDIÇÃO DOS a (LINKS)
+  ----------------------------------------------------------------------------------------------------------------*/
+a#link-um {
+    color: rgba(22, 214, 4, 0.96);
+    font-weight: bold;
+}
+a#link-dois {
+    color: black;
+    font-weight: bold;
+}
+a#link-tres {
+    color: rgb(80, 80, 221);
+    font-weight: bold;
+}
+a#link-quatro {
+    color:#DC143C;
+    font-weight: bold;
+}
+a#link-cinco {
+    color:#FFD700;
+    font-weight: bold;
+}
+a#link-seis {
+    color:rgb(255, 239, 239);
+    font-weight: bold;
+}
+a#link-sete {
+    color:wheat;
+    font-weight: bold;
+}
+a#link-oito {
+    color:#0000CD;
+    font-weight: bold;
+}
+
+/*------------------------------------------------------------------------------------------------------------------
+    EDIÇÃO DOS STRONGS
+  ----------------------------------------------------------------------------------------------------------------*/
+
+strong#probabilidade {
+    color: rgb(255, 242, 0);
+    text-decoration: underline;
+    font-style: oblique;
+    font-weight: bold;
+}
+strong#atencao {
+    color: rgb(255, 255, 0);
+    text-decoration: underline;
+}
+/*------------------------------------------------------------------------------------------------------------------
+    EDIÇÃO DOS STRONGS
+  ----------------------------------------------------------------------------------------------------------------*/
+  a#own777 {
+    color: #DAA520;
+  }
+/*------------------------------------------------------------------------------------------------------------------
+    EDIÇÃO DAS IMAGENS
+  ----------------------------------------------------------------------------------------------------------------*/
+div#img {
+    margin: 30px 30px 0px;
+}
+img#img1 {
+    margin: 1px;
+    padding: 3px;
+}
+img#img2 {
+    margin: 1px;
+    padding: 3px;
+}
+img#img3 {
+    margin: 1px;
+    padding: 3px;
+}
+img#img4 {
+    margin: 1px;
+    padding: 3px;
+}
+#imagem {
+        height: max-content;
+        width:max-content;
+        display:block;
+        text-align: center;
+}
+img#img-footer {
+    display: block;
+}
+/*------------------------------------------------------------------------------------------------------------------
+    EDIÇÃO DOS TÍTULOS (H1,H2,ETC...)
+  ----------------------------------------------------------------------------------------------------------------*/
+h1 {
+    background-color: black;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    color: rgba(255, 255, 255, 0.951);
+    text-decoration: underline;
+    
+}
+h2 {
+    text-align: center;
+}
+/*------------------------------------------------------------------------------------------------------------------
+    EDIÇÃO DO BODY
+  ----------------------------------------------------------------------------------------------------------------*/
+body {
+    display:inline-block;
+    text-align: auto;
+    max-width: 1400px;
+    min-width: 320px;
+    
+}
+/*------------------------------------------------------------------------------------------------------------------
+    EDIÇÃO DAS SECTION
+  ----------------------------------------------------------------------------------------------------------------*/
+section {
+    
+    padding-top: 5px;
+    background-image: url(./Imagem.png/img-body.jpg);
+    padding-left:10px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;
+    
+}
+/*------------------------------------------------------------------------------------------------------------------
+    EDIÇÃO DOS SPAN
+  ----------------------------------------------------------------------------------------------------------------*/
+span#p-um {
+    color: rgba(0, 255, 0, 0.903);
+}
+span#r-um {
+    color:#DAA520;
+    font-weight:bold;
+}
+span#b-um {
+    color:#DAA520;
+    font-weight:bold;
+}
+span#d-um {
+    color:#edab07;
+    font-weight:bold;
+}
+span#s-um {
+    color:yellow;
+    font-weight:bold;
+}
+span#p-dois {
+    color: rgb(246, 129, 4);
+}
+span#r-dois {
+    color:yellow;
+    font-weight:bold;
+}
+span#b-dois {
+    color:yellow;
+    font-weight:bold;
+}
+span#d-dois {
+    color:yellow;
+    font-weight:bold;
+}
+span#s-dois {
+    color:yellow;
+    font-weight:bold;
+}
+span#p-tres {
+    color: rgb(246, 48, 4);
+}
+span#r-tres {
+    color:yellow;
+    font-weight:bold;
+}
+span#b-tres {
+    color:yellow;
+    font-weight:bold;
+}
+span#d-tres {
+    color:yellow;
+    font-weight:bold;
+}
+span#s-tres {
+    color:yellow;
+    font-weight:bold;
+}
+span#p-quatro {
+    color: rgb(4, 246, 4);
+}
+span#r-quatro {
+    color:yellow;
+    font-weight:bold;
+}
+span#b-quatro {
+    color:yellow;
+    font-weight:bold;
+}
+span#d-quatro {
+    color:yellow;
+    font-weight:bold;
+}
+span#s-quatro {
+    color:yellow;
+    font-weight:bold;
+}
+span#p-cinco {
+    color: rgb(4, 246, 4);
+}
+span#r-cinco {
+    color:yellow;
+    font-weight:bold;
+}
+span#b-cinco {
+    color:yellow;
+    font-weight:bold;
+}
+span#d-cinco {
+    color:yellow;
+    font-weight:bold;
+}
+span#s-cinco {
+    color:yellow;
+    font-weight:bold;
+}
+span#p-seis {
+    color: rgb(4, 246, 4);
+}
+span#r-seis {
+    color:yellow;
+    font-weight:bold;
+}
+span#b-seis {
+    color:yellow;
+    font-weight:bold;
+}
+span#d-seis {
+    color:yellow;
+    font-weight:bold;
+}
+span#s-seis {
+    color:yellow;
+    font-weight:bold;
+}
+span#p-sete {
+    color: rgb(246, 129, 4);
+}
+span#r-sete {
+    color:yellow;
+    font-weight:bold;
+}
+span#b-sete {
+    color:yellow;
+    font-weight:bold;
+}
+span#d-sete {
+    color:yellow;
+    font-weight:bold;
+}
+span#s-sete {
+    color:yellow;
+    font-weight:bold;
+}
+span#p-oito {
+    color: rgb(246, 129, 4);
+}
+span#r-oito {
+    color:yellow;
+    font-weight:bold;
+}
+span#b-oito {
+    color:yellow;
+    font-weight:bold;
+}
+span#d-oito {
+    color:yellow;
+    font-weight:bold;
+}
+span#s-oito{
+    color:yellow;
+    font-weight:bold;
+}
+span {
+    font-size: small;
+    text-align:center;
+}
+span#linkown777 {
+    color: aliceblue;
+}
+span#linkbet7k {
+    color: aliceblue;
+}
+span#link999kae {
+    color: aliceblue;
+}
+span#link114bet {
+    color: aliceblue;
+}
+span#linkstrike777 {
+    color: aliceblue;
+}
+span#link99brl {
+    color: aliceblue;
+}
+span#linkttkbet {
+    color: aliceblue;
+}
+span#linklemon {
+    color: aliceblue;
+}
+
+
+footer {
+    display: block;
+    background-image: url(./Imagem.png/img-footer.jpg);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+footer>div>span#footer {
+    color:aliceblue;
+    display: block;
+    text-align: center;
+}

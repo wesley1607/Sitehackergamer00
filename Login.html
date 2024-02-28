@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - HackerGamer</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div id="adonay">
+        <div>
+            
+            <img src="./Imagem.png/imghack.png.jpg" alt="">
+            <h1>HACKER GAMER</h1>
+
+        </div>
+        <form>
+            <div id="login">
+                <h2>Login</h2>
+            <input type="text" placeholder="Login" id="usuario">
+            <input type="password" placeholder="senha" id="senha">
+            <div class="erro" id="erro">Login ou Senha inválidos</div>
+            <input type="submit" onclick="logar(); return false">
+            
+            </div>
+    </div>
+
+    </form>
+
+    <script>
+
+        function logar(){
+            var login = document.getElementById('usuario').value;
+            var senha = document.getElementById('senha').value;
+
+            if (login == "admin" && senha == "admin"){
+                location.href = "home.html";
+               
+            }
+            else
+            {
+                document.getElementById('erro').style.display = 'block';
+            }
+
+        }
+    </script>
+
+
+</body>
+</html>
