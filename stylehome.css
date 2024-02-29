@@ -9,9 +9,13 @@ header {
     EDIÇÃO DAS SECTION
   ----------------------------------------------------------------------------------------------------------------*/
   section {
-
-    max-width: 800px;
-    min-width: 320px;
+    padding-top: 5px;
+    background-image: url(./Imagem.png/img-body.jpg);
+    padding-left:5px;
+    padding-right:5px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;
   }
 /*------------------------------------------------------------------------------------------------------------------
     EDIÇÃO DAS DIVS
@@ -30,7 +34,7 @@ div.primeira {
     font-weight: bold;
     width: 80px;
     height: 80px;
-    
+    text-align: justify;
     border-radius: 5%;
     
     padding: 50px;
@@ -43,7 +47,7 @@ div.segunda {
     font-weight: bold;
     width: 80px;
     height: 80px;
-    
+    text-align: justify;
     border-radius: 5%;
     
     padding: 50px;
@@ -56,7 +60,7 @@ div.terceira {
     font-weight: bold;
     width: 80px;
     height: 80px;
-    
+    text-align: justify;
     border-radius: 5%;
     
     padding: 50px;
@@ -69,7 +73,7 @@ div.quarta {
     font-weight: bold;
     width: 80px;
     height: 80px;
-    
+    text-align: justify;
     border-radius: 5%;
    
     padding: 50px;
@@ -82,7 +86,7 @@ div.quinta {
     font-weight: bold;
     width: 80px;
     height: 80px;
-   
+    text-align: justify;
     border-radius: 5%;
 
     padding: 50px;
@@ -95,7 +99,7 @@ div.sexta {
     font-weight: bold;
     width: 80px;
     height: 80px;
-    
+    text-align: justify;
     border-radius: 5%;
     
     padding: 50px;
@@ -108,7 +112,7 @@ div.setima {
     font-weight: bold;
     width: 80px;
     height: 80px;
-    
+    text-align: justify;
     border-radius: 5%;
     
     padding: 50px;
@@ -121,7 +125,55 @@ div.oitava {
     font-weight: bold;
     width: 80px;
     height: 80px;
+    text-align: justify;
+    border-radius: 5%;
     
+    padding: 50px;
+    color: white;
+}
+div.nona {
+    background-color: #25fcfcb0;
+    font-family: Arialrgb(62, 150, 150)tica, sans-serif;
+    font-weight: bold;
+    width: 80px;
+    height: 80px;
+    text-align: justify;
+    border-radius: 5%;
+    
+    padding: 50px;
+    color: white;
+}
+div.decima {
+    background-color: #37743a80;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 80px;
+    height: 80px;
+    text-align: justify;
+    border-radius: 5%;
+    
+    padding: 50px;
+    color: white;
+}
+div.decimaprimeira {
+    background-color: #9ea72193;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 80px;
+    height: 80px;
+    text-align: justify;
+    border-radius: 5%;
+    
+    padding: 50px;
+    color: white;
+}
+div.decimasegunda {
+    background-color: #d33418a2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 80px;
+    height: 80px;
+    text-align: justify;
     border-radius: 5%;
     
     padding: 50px;
@@ -185,6 +237,30 @@ div.oitava:hover {
          color: white;
     }
 }
+div.nona:hover {
+    a#link-nove {
+        visibility: visible;
+         color: white;
+    }
+}
+div.decima:hover {
+    a#link-dez {
+        visibility: visible;
+         color: white;
+    }
+}
+div.decimaprimeira:hover {
+    a#link-onze {
+        visibility: visible;
+         color: white;
+    }
+}
+div.decimasegunda:hover {
+    a#link-doze {
+        visibility: visible;
+         color: white;
+    }
+}
 /*------------------------------------------------------------------------------------------------------------------
     EDIÇÃO DOS a (LINKS)
   ----------------------------------------------------------------------------------------------------------------*/
@@ -218,6 +294,22 @@ a#link-sete {
 }
 a#link-oito {
     color:#0000CD;
+    font-weight: bold;
+}
+a#link-nove {
+    color:#cd5200;
+    font-weight: bold;
+}
+a#link-dez {
+    color:#cdca00;
+    font-weight: bold;
+}
+a#link-onze {
+    color:#7c0153;
+    font-weight: bold;
+}
+a#link-doze {
+    color:#030203;
     font-weight: bold;
 }
 
@@ -290,11 +382,14 @@ h2 {
     EDIÇÃO DO BODY
   ----------------------------------------------------------------------------------------------------------------*/
 body {
-    display:inline-block;
-    text-align: auto;
-    max-width: 1400px;
-    min-width: 320px;
-    
+    height:max-content;
+    width:max-content;
+    display:block;
+    text-align:center;
+    padding: auto;
+    margin: auto;
+    max-width: 800px;
+    min-width: 300px;
 }
 /*------------------------------------------------------------------------------------------------------------------
     EDIÇÃO DAS SECTION
@@ -303,7 +398,9 @@ section {
     
     padding-top: 5px;
     background-image: url(./Imagem.png/img-body.jpg);
-    padding-left:10px;
+    padding-left:30px;
+    padding-right:30px;
+
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 5px;
@@ -464,33 +561,95 @@ span#s-oito{
     color:yellow;
     font-weight:bold;
 }
+span#r-nona{
+    color:yellow;
+    font-weight:bold;
+}
+span#b-nona{
+    color:yellow;
+    font-weight:bold;
+}
+span#d-nona{
+    color:yellow;
+    font-weight:bold;
+}
+span#s-nona{
+    color:yellow;
+    font-weight:bold;
+}
+
+span#p-dez{
+    color:rgba(30, 255, 0, 0.849);
+    font-weight:bold;
+}
+span#r-dez{
+    color:yellow;
+    font-weight:bold;
+}
+span#b-dez{
+    color:yellow;
+    font-weight:bold;
+}
+span#d-dez{
+    color:yellow;
+    font-weight:bold;
+}
+span#s-dez{
+    color:yellow;
+    font-weight:bold;
+}
+span#p-onze{
+    color:rgba(30, 255, 0, 0.849);
+    font-weight:bold;
+}
+span#p-onze{
+    color:yellow;
+    font-weight:bold;
+}
+span#r-onze{
+    color:yellow;
+    font-weight:bold;
+}
+span#b-onze{
+    color:yellow;
+    font-weight:bold;
+}
+span#d-onze{
+    color:yellow;
+    font-weight:bold;
+}
+span#s-onze{
+    color:yellow;
+    font-weight:bold;
+}
+span#p-doze{
+    color:rgba(30, 255, 0, 0.849);
+    font-weight:bold;
+    text-decoration:underline;
+}
+span#p-doze{
+    color:yellow;
+    font-weight:bold;
+}
+span#r-doze{
+    color:yellow;
+    font-weight:bold;
+}
+span#b-doze{
+    color:yellow;
+    font-weight:bold;
+}
+span#d-doze{
+    color:yellow;
+    font-weight:bold;
+}
+span#s-doze{
+    color:yellow;
+    font-weight:bold;
+}
 span {
     font-size: small;
     text-align:center;
-}
-span#linkown777 {
-    color: aliceblue;
-}
-span#linkbet7k {
-    color: aliceblue;
-}
-span#link999kae {
-    color: aliceblue;
-}
-span#link114bet {
-    color: aliceblue;
-}
-span#linkstrike777 {
-    color: aliceblue;
-}
-span#link99brl {
-    color: aliceblue;
-}
-span#linkttkbet {
-    color: aliceblue;
-}
-span#linklemon {
-    color: aliceblue;
 }
 
 
