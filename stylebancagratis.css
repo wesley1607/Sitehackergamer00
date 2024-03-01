@@ -1,6 +1,8 @@
 
 div.menu {
-    background-image: url(./Imagem.png/img-into-header.jpg);
+  text-align: center;
+  background-color:  #0e0642a9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 header{
     background-color: aquamarine;
@@ -14,10 +16,11 @@ nav#menu>a {
   }
   .active {
     color: #ffffff;
-    background-color: #0d0e0dea;
+    background-color: #0aec0aea;
     border-radius: 8px;
-    padding: 5px;
-    text-align: left;
+    padding-bottom: 8px;
+    padding-left: 5px;
+    margin: auto;
   }
   a {
     color: rgba(0, 0, 255, 0.541);
@@ -43,11 +46,11 @@ nav#menu>a {
     text-align: center;
   }
   h4 {
-    background-color: rgba(245, 245, 220, 0.466);
+    background-color: #0e064200;
     text-align: center;
     font-family:'Times New Roman', Times, serif;
-    color:black ;
+    color:rgba(231, 224, 224, 0.973) ;
     text-decoration: underline;
     font-weight: bold;
     font-style: italic;
-  }
+}
