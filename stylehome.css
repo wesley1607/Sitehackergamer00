@@ -1,7 +1,6 @@
 /*------------------------------------------------------------------------------------------------------------------
     EDIÇÃO DO HEADER
   ----------------------------------------------------------------------------------------------------------------*/
-
 /*------------------------------------------------------------------------------------------------------------------
     EDIÇÃO DAS SECTION
   ----------------------------------------------------------------------------------------------------------------*/
@@ -20,8 +19,7 @@
   nav#menu>a {
     transition: 1s;
     font-weight: bold;
-    padding-right: 10px;
-    padding-top: 10px;
+    padding:10px;
     text-decoration: none;
   }
   .active {
@@ -38,15 +36,16 @@
   ----------------------------------------------------------------------------------------------------------------*/
   
   div#centralizar {
-    padding-top: 100px;
+    padding-top: 90px;
   }
   div.menu {
-    text-align: center;
+    text-align: left;
     background-image: url(./Imagem.png/img-into-header.jpg);
     position: fixed;
     text-align: left;
-    padding-left: 10px;
-    padding-top: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    top: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   div#span {
@@ -412,7 +411,7 @@ body {
     display:block;
     text-align:center;
     padding: auto;
-    margin: auto;
+    margin-left: 70px;
     max-width: 800px;
     min-width: 300px;
 }
