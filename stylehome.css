@@ -19,33 +19,32 @@
   nav#menu>a {
     transition: 1s;
     font-weight: bold;
-    padding:10px;
+    margin-left: 2px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
     text-decoration: none;
   }
   .active {
     color: #ffffff;
-    background-color: #0d0e0dea;
+    background-color: #0aec0aea;
     border-radius: 8px;
     padding: 2px;
   }
   nav#menu > a:hover{
-    background-color: #3ef805da;
+    background-color: #4caa2fda;
   }
 /*------------------------------------------------------------------------------------------------------------------
     EDIÇÃO DAS DIVS
   ----------------------------------------------------------------------------------------------------------------*/
   
   div#centralizar {
-    padding-top: 90px;
+    
   }
   div.menu {
     text-align: left;
-    background-image: url(./Imagem.png/img-into-header.jpg);
-    position: fixed;
-    text-align: left;
-    padding-left: 5px;
-    padding-right: 5px;
-    top: 0;
+    background-color: #0e0642a9;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   div#span {
@@ -390,10 +389,10 @@ img#img-footer {
     EDIÇÃO DOS TÍTULOS (H1,H2,ETC...)
   ----------------------------------------------------------------------------------------------------------------*/
 h4 {
-    background-color: rgba(245, 245, 220, 0.466);
+    background-color: #0e064200;
     text-align: center;
     font-family:'Times New Roman', Times, serif;
-    color:black ;
+    color:rgba(231, 224, 224, 0.973) ;
     text-decoration: underline;
     font-weight: bold;
     font-style: italic;
@@ -411,7 +410,6 @@ body {
     display:block;
     text-align:center;
     padding: auto;
-    margin-left: 70px;
     max-width: 800px;
     min-width: 300px;
 }
@@ -422,12 +420,9 @@ section {
     
     padding-top: 5px;
     background-image: url(./Imagem.png/img-body.jpg);
-    padding-left:30px;
-    padding-right:30px;
-
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap: 5px;
+    
     
 }
 /*------------------------------------------------------------------------------------------------------------------
