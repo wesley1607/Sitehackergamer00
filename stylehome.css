@@ -1,7 +1,17 @@
 /*------------------------------------------------------------------------------------------------------------------
     EDIÇÃO DO HEADER
   ----------------------------------------------------------------------------------------------------------------*/
-/*------------------------------------------------------------------------------------------------------------------
+header {
+    top: 0;
+    left: 0;
+    position: fixed;
+    align-items: center;
+    width: 100%;
+    background-color: #2F4F4F;
+    display: flex;
+    justify-content: space-around;
+}
+  /*------------------------------------------------------------------------------------------------------------------
     EDIÇÃO DAS SECTION
   ----------------------------------------------------------------------------------------------------------------*/
   section {
@@ -26,11 +36,18 @@
     padding-left: 10px;
     text-decoration: none;
   }
+
+  #menu{
+    display: flex;
+    justify-content: space-between;
+  }
   .active {
+    text-transform: uppercase;
+    margin: 0 10px;
     color: #ffffff;
-    background-color: #0aec0aea;
+    background-color: #313a31ea;
     border-radius: 8px;
-    padding: 2px;
+    padding: 8px;
   }
   nav#menu > a:hover{
     background-color: #4caa2fda;
@@ -40,6 +57,7 @@
   ----------------------------------------------------------------------------------------------------------------*/
   
   div#centralizar {
+   
     
   }
   div.menu {
@@ -53,7 +71,7 @@
     text-align: center;
     color: white;
     font-weight: bold;
-    padding-top: 23px;
+    padding-top: 32px;
 }
 
 
@@ -208,6 +226,30 @@ div.decimasegunda {
     padding: 50px;
     color: white;
 }
+div.decimaterceira {
+    background-color: #2e5f29a2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 80px;
+    height: 80px;
+    text-align: justify;
+    border-radius: 5%;
+    
+    padding: 50px;
+    color: white;
+}
+div.decimaquarta {
+    background-color: #e2e611a2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 80px;
+    height: 80px;
+    text-align: justify;
+    border-radius: 5%;
+    
+    padding: 50px;
+    color: white;
+}
 div#img {
     display: block;
     text-align: center;
@@ -290,6 +332,18 @@ div.decimasegunda:hover {
          color: white;
     }
 }
+div.decimaterceira:hover {
+    a#link-treze {
+        visibility: visible;
+         color: white;
+    }
+}
+div.decimaquarta:hover {
+    a#link-treze {
+        visibility: visible;
+         color: white;
+    }
+}
 /*------------------------------------------------------------------------------------------------------------------
     EDIÇÃO DOS a (LINKS)
   ----------------------------------------------------------------------------------------------------------------*/
@@ -339,6 +393,10 @@ a#link-onze {
 }
 a#link-doze {
     color:#030203;
+    font-weight: bold;
+}
+a#link-treze {
+    color:#4343f8ef;
     font-weight: bold;
 }
 
@@ -392,7 +450,7 @@ h4 {
     background-color: #0e064200;
     text-align: center;
     font-family:'Times New Roman', Times, serif;
-    color:rgba(231, 224, 224, 0.973) ;
+    color:rgba(245, 9, 9, 0.973) ;
     text-decoration: underline;
     font-weight: bold;
     font-style: italic;
@@ -405,12 +463,12 @@ h2 {
     EDIÇÃO DO BODY
   ----------------------------------------------------------------------------------------------------------------*/
 body {
-    height:max-content;
-    width:max-content;
+    left: 0;
+    padding-top:40px;
     display:block;
     text-align:center;
     padding: auto;
-    max-width: 800px;
+    width: 100%;
     min-width: 300px;
 }
 /*------------------------------------------------------------------------------------------------------------------
@@ -439,7 +497,7 @@ span#abaixoh1 {
 }
 
 span#p-um {
-    color: rgba(0, 255, 0, 0.903);
+    color: yellow;
 }
 span#r-um {
     color:#DAA520;
@@ -496,7 +554,7 @@ span#s-tres {
     font-weight:bold;
 }
 span#p-quatro {
-    color: rgb(4, 246, 4);
+    color: orange;
 }
 span#r-quatro {
     color:yellow;
@@ -515,7 +573,7 @@ span#s-quatro {
     font-weight:bold;
 }
 span#p-cinco {
-    color: rgb(4, 246, 4);
+    color: orange;
 }
 span#r-cinco {
     color:yellow;
@@ -553,7 +611,7 @@ span#s-seis {
     font-weight:bold;
 }
 span#p-sete {
-    color: rgb(246, 129, 4);
+    color: red;
 }
 span#r-sete {
     color:yellow;
@@ -572,7 +630,7 @@ span#s-sete {
     font-weight:bold;
 }
 span#p-oito {
-    color: rgb(246, 129, 4);
+    color: red;
 }
 span#r-oito {
     color:yellow;
@@ -588,6 +646,10 @@ span#d-oito {
 }
 span#s-oito{
     color:yellow;
+    font-weight:bold;
+}
+span#p-nona{
+    color:rgb(12, 246, 4);
     font-weight:bold;
 }
 span#r-nona{
@@ -608,7 +670,7 @@ span#s-nona{
 }
 
 span#p-dez{
-    color:rgba(30, 255, 0, 0.849);
+    color:yellow;
     font-weight:bold;
 }
 span#r-dez{
@@ -628,11 +690,7 @@ span#s-dez{
     font-weight:bold;
 }
 span#p-onze{
-    color:rgba(30, 255, 0, 0.849);
-    font-weight:bold;
-}
-span#p-onze{
-    color:yellow;
+    color:rgba(34, 238, 7, 0.849);
     font-weight:bold;
 }
 span#r-onze{
@@ -652,13 +710,9 @@ span#s-onze{
     font-weight:bold;
 }
 span#p-doze{
-    color:rgba(30, 255, 0, 0.849);
-    font-weight:bold;
-    text-decoration:underline;
-}
-span#p-doze{
     color:yellow;
     font-weight:bold;
+    text-decoration:underline;
 }
 span#r-doze{
     color:yellow;
@@ -673,6 +727,48 @@ span#d-doze{
     font-weight:bold;
 }
 span#s-doze{
+    color:yellow;
+    font-weight:bold;
+}
+span#p-treze{
+    color:rgba(30, 255, 0, 0.849);
+    font-weight:bold;
+    text-decoration:underline;
+}
+span#r-treze{
+    color:yellow;
+    font-weight:bold;
+}
+span#b-treze{
+    color:yellow;
+    font-weight:bold;
+}
+span#d-treze{
+    color:yellow;
+    font-weight:bold;
+}
+span#s-treze{
+    color:yellow;
+    font-weight:bold;
+}
+span#p-quatorze{
+    color:orange;
+    font-weight:bold;
+    text-decoration:underline;
+}
+span#r-quatorze{
+    color:yellow;
+    font-weight:bold;
+}
+span#b-quatorze{
+    color:yellow;
+    font-weight:bold;
+}
+span#d-quatorze{
+    color:yellow;
+    font-weight:bold;
+}
+span#s-quatorze{
     color:yellow;
     font-weight:bold;
 }

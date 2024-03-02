@@ -4,8 +4,15 @@ div.menu {
   background-color:  #0e0642a9;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-header{
-    background-color: aquamarine;
+header {
+  top: 0;
+  left: 0;
+  position: fixed;
+  align-items: center;
+  width: 100%;
+  background-color: #2F4F4F;
+  display: flex;
+  justify-content: space-around;
 }
 nav#menu>a {
     transition: 1s;
@@ -49,8 +56,15 @@ nav#menu>a {
     background-color: #0e064200;
     text-align: center;
     font-family:'Times New Roman', Times, serif;
-    color:rgba(231, 224, 224, 0.973) ;
+    color:red;
     text-decoration: underline;
     font-weight: bold;
     font-style: italic;
+}
+footer {
+  display: block;
+  background-image: url(./Imagem.png/img-footer.jpg);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  text-align: center;
 }
