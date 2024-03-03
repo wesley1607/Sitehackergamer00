@@ -76,7 +76,7 @@ header {
 
 
 div.primeira {
-    background-color: #ed0000e2;
+    background-color: #ed00007e;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     width: 80px;
@@ -140,8 +140,7 @@ div.quinta {
     color: white;
 }
 div.sexta {
-    background-image: url(./Imagem.png/99brl.jpg);
-    background-color: #2F4F4F;
+    background-color: #0fe0e073;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     width: 80px;
@@ -166,8 +165,7 @@ div.setima {
     color: white;
 }
 div.oitava {
-    background-image: url(./Imagem.png/lemon.jpg);
-    background-color: #2F4F4F;
+    background-color: #2f4f4f96;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     width: 80px;
@@ -179,7 +177,7 @@ div.oitava {
     color: white;
 }
 div.nona {
-    background-color: #25fcfcb0;
+    background-color: #2b4b4bd7;
     font-family: Arialrgb(62, 150, 150)tica, sans-serif;
     font-weight: bold;
     width: 80px;
@@ -376,7 +374,7 @@ a#link-sete {
     font-weight: bold;
 }
 a#link-oito {
-    color:#0000CD;
+    color:#9cd86471;
     font-weight: bold;
 }
 a#link-nove {
@@ -497,7 +495,7 @@ span#abaixoh1 {
 }
 
 span#p-um {
-    color: yellow;
+    color: rgb(12, 246, 4);
 }
 span#r-um {
     color:#DAA520;
@@ -516,7 +514,7 @@ span#s-um {
     font-weight:bold;
 }
 span#p-dois {
-    color: rgb(12, 246, 4);
+    color: yellow;
 }
 span#r-dois {
     color:yellow;
@@ -554,7 +552,7 @@ span#s-tres {
     font-weight:bold;
 }
 span#p-quatro {
-    color: orange;
+    color: rgb(12, 246, 4);
 }
 span#r-quatro {
     color:yellow;
@@ -573,7 +571,7 @@ span#s-quatro {
     font-weight:bold;
 }
 span#p-cinco {
-    color: orange;
+    color: red;
 }
 span#r-cinco {
     color:yellow;
@@ -630,7 +628,7 @@ span#s-sete {
     font-weight:bold;
 }
 span#p-oito {
-    color: red;
+    color: rgb(12, 246, 4);
 }
 span#r-oito {
     color:yellow;
@@ -670,7 +668,7 @@ span#s-nona{
 }
 
 span#p-dez{
-    color:yellow;
+    color:orange;
     font-weight:bold;
 }
 span#r-dez{
@@ -710,7 +708,7 @@ span#s-onze{
     font-weight:bold;
 }
 span#p-doze{
-    color:yellow;
+    color:red;
     font-weight:bold;
     text-decoration:underline;
 }
@@ -731,7 +729,7 @@ span#s-doze{
     font-weight:bold;
 }
 span#p-treze{
-    color:rgba(30, 255, 0, 0.849);
+    color:red;
     font-weight:bold;
     text-decoration:underline;
 }
@@ -752,7 +750,7 @@ span#s-treze{
     font-weight:bold;
 }
 span#p-quatorze{
-    color:orange;
+    color:rgba(34, 238, 7, 0.849);
     font-weight:bold;
     text-decoration:underline;
 }
