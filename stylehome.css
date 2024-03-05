@@ -152,8 +152,7 @@ div.sexta {
     color: white;
 }
 div.setima {
-    background-image:url(./Imagem.png/ttkbet.jpg) ;
-    background-color: #2F4F4F;
+    background-color: #d213e485;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     width: 80px;
@@ -346,7 +345,7 @@ div.decimaquarta:hover {
     EDIÇÃO DOS a (LINKS)
   ----------------------------------------------------------------------------------------------------------------*/
 a#link-um {
-    color: rgba(22, 214, 4, 0.96);
+    color: orange;
     font-weight: bold;
 }
 a#link-dois {
@@ -495,7 +494,7 @@ span#abaixoh1 {
 }
 
 span#p-um {
-    color: rgb(12, 246, 4);
+    color: yellow;
 }
 span#r-um {
     color:#DAA520;
@@ -609,7 +608,7 @@ span#s-seis {
     font-weight:bold;
 }
 span#p-sete {
-    color: red;
+    color: rgb(12, 246, 4);
 }
 span#r-sete {
     color:yellow;
