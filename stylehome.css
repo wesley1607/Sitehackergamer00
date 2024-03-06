@@ -114,8 +114,7 @@ div.terceira {
     color: white;
 }
 div.quarta {
-    background-image: url(./Imagem.png/114bet.jpg);
-    background-color: #2F4F4F;
+    background-color: #97ac24;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     width: 80px;
@@ -532,7 +531,7 @@ span#s-dois {
     font-weight:bold;
 }
 span#p-tres {
-    color: rgb(246, 48, 4);
+    color: rgb(32, 246, 4);
 }
 span#r-tres {
     color:yellow;
