@@ -344,11 +344,11 @@ div.decimaquarta:hover {
     EDIÇÃO DOS a (LINKS)
   ----------------------------------------------------------------------------------------------------------------*/
 a#link-um {
-    color: orange;
+    color: rgb(7, 248, 7);
     font-weight: bold;
 }
 a#link-dois {
-    color: black;
+    color: orange;
     font-weight: bold;
 }
 a#link-tres {
@@ -516,7 +516,7 @@ span#s-um {
     font-weight:bold;
 }
 span#p-dois {
-    color: yellow;
+    color: rgb(32, 246, 4);
 }
 span#r-dois {
     color:yellow;
@@ -611,7 +611,7 @@ span#s-seis {
     font-weight:bold;
 }
 span#p-sete {
-    color: rgb(12, 246, 4);
+    color: orange;
 }
 span#r-sete {
     color:yellow;
