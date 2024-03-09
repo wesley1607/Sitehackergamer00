@@ -372,7 +372,7 @@ a#link-sete {
     font-weight: bold;
 }
 a#link-oito {
-    color:#9cd86471;
+    color:#30fa08ef;
     font-weight: bold;
 }
 a#link-nove {
@@ -573,7 +573,7 @@ span#s-quatro {
     font-weight:bold;
 }
 span#p-cinco {
-    color: red;
+    color: rgb(2, 223, 2);
 }
 span#r-cinco {
     color:yellow;
