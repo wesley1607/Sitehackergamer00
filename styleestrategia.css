@@ -60,6 +60,13 @@ nav#menu>a {
     font-style: italic;
     
 }
+strong#obs {
+  background-color: red;
+  color: white;
+  font-style: oblique;
+  font-size: larger;
+  border-color: aqua;
+}
 span#abaixoh1 {
     visibility: hidden;
     text-align: center;
